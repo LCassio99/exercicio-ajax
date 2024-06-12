@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const username = 'LCassio99';
+    const username = prompt('Seu nick do Github:');
 
     fetch(`https://api.github.com/users/${username}`)
         .then(response => {
